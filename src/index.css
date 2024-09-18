@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.HomeBackgroundImage {
+  background-image: url("/images/desktop/image-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 648px) {
+  .HomeBackgroundImage {
+    background-image: url("/images/mobile/image-hero.jpg");
+  }
+}
+
+.CommonPadding {
+  @apply px-5  md:px-20 lg:px-48 py-5 md:py-10;
+}
