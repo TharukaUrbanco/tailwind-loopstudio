@@ -1,4 +1,4 @@
-import { AlignJustify, CrossIcon, X } from "lucide-react";
+import { AlignJustify, X } from "lucide-react";
 import NavItem from "./NavItem";
 import { useState } from "react";
 
